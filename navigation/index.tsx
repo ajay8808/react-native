@@ -81,7 +81,7 @@ function BottomTabNavigator() {
                 color={Colors[colorScheme].text}
                 style={{ marginRight: 15 }}
               />
-            </Pressable>
+            </Pressable> 
           ),
         })}
       />
