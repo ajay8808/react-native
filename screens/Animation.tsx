@@ -55,7 +55,7 @@ const App = () => {
         <View style={styles.indicatorContainer}>
           {images.map((image, imageIndex) => {
             const width = scrollX.interpolate({
-              inputRange: [
+              inputRange: [ 
                 windowWidth * (imageIndex - 1),
                 windowWidth * imageIndex,
                 windowWidth * (imageIndex + 1)
