@@ -15,13 +15,7 @@ export default class ButtonBasics extends Component {
             title="Press Me"
           />
         </View>
-        <View style={styles.buttonContainer}>
-          <Button
-            onPress={this._onPressButton}
-            title="Press Me"
-            color="#841584"
-          />
-        </View>
+       
         <View style={styles.alternativeLayoutButtonContainer}>
          
           <Button
